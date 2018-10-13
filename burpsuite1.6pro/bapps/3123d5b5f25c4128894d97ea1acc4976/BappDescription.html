@@ -1,0 +1,16 @@
+<p>This extension extends Burp's active and passive scanning capabilities. It adds checks for the following issues:</p>
+
+<ul>
+	<li>Host header attacks (password reset poisoning, cache poisoning, DNS rebinding)</li>
+	<li>OS command injection (this complements Burp's coverage)</li>
+    <li>CVE-2014-6271/CVE-2014-6278 'shellshock' and CVE-2015-2080</li>
+</ul>
+
+<p>Rather than risking numerous false negatives by attempting to automate 
+relative path overwrite and Host header attacks from start to finish, the
+extension identifies key vulnerability components and flags these for user 
+review.</p>
+
+<p>This extension requires Burp Suite Professional (version 1.6 or later) and Jython 2.5 or later.</p>
+
+<p>The source for this extension can be found <a href="https://github.com/albinowax/ActiveScanPlusPlus">here</a>.</p>

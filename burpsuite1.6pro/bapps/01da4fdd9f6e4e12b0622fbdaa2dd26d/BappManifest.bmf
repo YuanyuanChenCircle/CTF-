@@ -1,0 +1,10 @@
+Uuid: 01da4fdd9f6e4e12b0622fbdaa2dd26d
+ExtensionType: 1
+Name: Pcap Importer
+ScreenVersion: 1.1
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: True
+Author: Stephen Tomkinson - NCC Group
+ShortDescription: Imports and passively scans Pcap files.
+EntryPoint: pcap_importer.jar
